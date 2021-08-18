@@ -71,3 +71,45 @@
         However, you may choose not to store the real (valid) key in
         the client, which will then ask for a password when it starts.
 
+
+
+linux cross compile
+
+```
+wget https://www.uclibc.org/downloads/binaries/0.9.30.1/cross-compiler-x86_64.tar.bz2 
+
+tar -xzvf cross-compiler-x86_64.tar.bz2 
+
+wget https://www.uclibc.org/downloads/binaries/0.9.30.1/cross-compiler-armv4l.tar.bz2
+
+tar -xzvf cross-compiler-armv4l.tar.bz2
+
+wget https://www.uclibc.org/downloads/binaries/0.9.30.1/cross-compiler-i586.tar.bz2
+
+tar -xzvf cross-compiler-i586.tar.bz2
+
+wget https://www.uclibc.org/downloads/binaries/0.9.30.1/cross-compiler-m68k.tar.bz2
+
+tar -xzvf cross-compiler-m68k.tar.bz2
+
+wget https://www.uclibc.org/downloads/binaries/0.9.30.1/cross-compiler-mips.tar.bz2
+
+tar -xzvf cross-compiler-mips.tar.bz2
+
+wget https://www.uclibc.org/downloads/binaries/0.9.30.1/cross-compiler-mipsel.tar.bz2
+
+tar -xzvf cross-compiler-mipsel.tar.bz2
+
+wget https://www.uclibc.org/downloads/binaries/0.9.30.1/cross-compiler-powerpc.tar.bz2
+
+tar -xzvf cross-compiler-powerpc.tar.bz2
+
+wget https://www.uclibc.org/downloads/binaries/0.9.30.1/cross-compiler-sh4.tar.bz2
+
+tar -xzvf cross-compiler-sh4.tar.bz2
+
+wget https://www.uclibc.org/downloads/binaries/0.9.30.1/cross-compiler-sparc.tar.bz2
+
+tar -xzvf cross-compiler-sparc.tar.bz2
+
+```

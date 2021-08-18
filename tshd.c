@@ -17,6 +17,8 @@
 #include <fcntl.h>
 #include <netdb.h>
 
+#define LINUX
+
 /* PTY support requires system-specific #include */
 
 #if defined LINUX || defined OSF
